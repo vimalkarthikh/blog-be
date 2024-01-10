@@ -31,7 +31,7 @@ dataBaseConnection();
 app.get("/", async (req, res) => {
   return res
     .status(200)
-    .send("API of Aspire Kaleidoscope... A Simple Blogger App Backend");
+    .send("BlogBee... Server of  Blogger App Backend");
 });
 
 //Routes
